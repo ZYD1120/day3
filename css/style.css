@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body, .box {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+ul li, ol li {
+  list-style: none; }
+
+header span, .main .bottom p a, .main .top span:nth-child(1), .main .top span:nth-child(4) {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+body {
+  font-size: .32rem; }
+
+.box {
+  display: flex;
+  flex-direction: column; }
+
+header {
+  margin-top: .1rem;
+  display: flex;
+  height: 1rem;
+  box-shadow: 0px -2px  5px #E1E1E1; }
+  header span {
+    flex: 1; }
+
+section {
+  flex: 1;
+  overflow: hiden;
+  overflow-y: scroll;
+  background: #F2F2FE; }
+
+.connection {
+  margin-top: .2rem;
+  width: 100%;
+  background: #fff; }
+
+.main {
+  padding: .2rem 0;
+  background: #fff;
+  width: 90%;
+  margin: 0 auto; }
+  .main .bottom {
+    background: #E7E7E7;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding: .2rem 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: .2rem; }
+    .main .bottom .bg {
+      color: green; }
+    .main .bottom p {
+      display: flex;
+      width: 90%;
+      margin: 0 auto;
+      margin-top: .1rem; }
+      .main .bottom p a {
+        flex-basis: 5%; }
+        .main .bottom p a img {
+          width: 100%;
+          height: auto; }
+  .main .top {
+    border-radius: 10px;
+    background: #FD6060;
+    display: flex;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: .1rem 0; }
+    .main .top span:nth-child(1) {
+      flex-basis: 20%; }
+      .main .top span:nth-child(1) img {
+        width: 30%;
+        height: auto;
+        margin-top: -.4rem; }
+    .main .top span:nth-child(2) {
+      flex-basis: 20%;
+      font-size: 1rem;
+      color: #fff;
+      margin-left: -10px; }
+    .main .top span:nth-child(3) {
+      flex-basis: 35%; }
+    .main .top span:nth-child(4) {
+      flex-basis: 30%;
+      font-size: .5rem;
+      color: #fff;
+      margin-top: .2rem; }
+
+/*# sourceMappingURL=style.css.map */
